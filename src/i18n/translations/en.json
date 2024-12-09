@@ -1,0 +1,363 @@
+{
+  "common": {
+    "balance": "Balance",
+    "investments": "Investments",
+    "expenses": "Expenses",
+    "income": "Income",
+    "settings": "Settings",
+    "save": "Save",
+    "cancel": "Cancel",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "edit": "Edit",
+    "change": "Change",
+    "view": "View",
+    "apply": "Apply",
+    "confirm": "Confirm"
+  },
+  "dashboard": {
+    "totalAssets": "Total Assets",
+    "investmentReturn": "Investment Return",
+    "monthlyExpenses": "Monthly Expenses",
+    "ytd": "Year to Date Growth",
+    "viewDetails": "View Details",
+    "loss": "Loss of {{value}} this week",
+    "wtd": "Weekly Change",
+    "welcome": "Welcome to Dashboard",
+    "overview": "Here's an overview of your investments",
+    "performanceChart": "Investment Performance",
+    "chartDescription": "Track your investment performance over time",
+    "welcomeUser": "Welcome, {{name}}"
+  },
+  "investments": {
+    "title": "Investment Returns",
+    "addButton": "Add Investment",
+    "noInvestments": "No investments found. Add your first investment!",
+    "addNew": "Add New Investment",
+    "name": "Investment Name",
+    "amount": "Amount",
+    "date": "Investment Date",
+    "editTitle": "Edit Investment",
+    "deleteConfirmation": "Are you sure you want to delete this investment? This action cannot be undone.",
+    "notFound": "Investment not found",
+    "deleteTitle": "Delete Investment",
+    "return": "Return Rate",
+    "returnPositive": "Profit",
+    "returnNegative": "Loss"
+  },
+  "income": {
+    "title": "Monthly Income",
+    "addButton": "Add Income",
+    "noIncomes": "No incomes found. Add your first income!",
+    "addNew": "Add New Income",
+    "name": "Income Name",
+    "amount": "Amount",
+    "date": "Income Date",
+    "recurrent": "Recurrent Income",
+    "recurrentLabel": "Recurrent",
+    "editTitle": "Edit Income",
+    "deleteTitle": "Delete Income",
+    "deleteConfirmation": "Are you sure you want to delete this income? This action cannot be undone."
+  },
+  "expenses": {
+    "title": "Monthly Expenses",
+    "addButton": "Add Expense",
+    "noExpenses": "No expenses found. Add your first expense!",
+    "addNew": "Add New Expense",
+    "name": "Expense Name",
+    "amount": "Amount",
+    "date": "Expense Date",
+    "category": "Category",
+    "categories": {
+      "housing": "Housing",
+      "transportation": "Transportation",
+      "food": "Food",
+      "utilities": "Utilities",
+      "insurance": "Insurance",
+      "healthcare": "Healthcare",
+      "entertainment": "Entertainment",
+      "other": "Others"
+    }
+  },
+  "chart": {
+    "lastSixMonths": "Last 6 Months Performance",
+    "month": "Month",
+    "performance": "Performance - {{period}}",
+    "period": {
+      "1w": "Last Week",
+      "1m": "Last Month",
+      "6m": "Last 6 Months",
+      "1y": "Last Year",
+      "all": "All Time"
+    },
+    "time": "Time",
+    "date": "Date"
+  },
+  "auth": {
+    "loginTitle": "Sign in to your account",
+    "registerTitle": "Create your account",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "loginButton": "Sign In",
+    "registerButton": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "haveAccount": "Already have an account?",
+    "login": "Sign In",
+    "invalidCredentials": "Invalid email or password",
+    "loginError": "Error signing in",
+    "registerError": "Error creating account",
+    "registerSuccess": "Account created successfully! Redirecting...",
+    "userExists": "This email is already registered",
+    "logout": "Sign Out",
+    "logoutTitle": "Sign Out",
+    "logoutConfirmation": "Are you sure you want to sign out? You'll need to sign in again to access your information.",
+    "welcomeMessage": "Manage your investments simply and efficiently. Track your assets and make smarter decisions.",
+    "forgotPassword": "Forgot password?",
+    "orLoginWith": "Or sign in with",
+    "orRegisterWith": "Or sign up with",
+    "loginSubtitle": "Welcome back! Please enter your details to access your account.",
+    "registerSubtitle": "Create an account to start managing your investments."
+  },
+  "settings": {
+    "title": "Settings",
+    "account": {
+      "title": "Account",
+      "personalInfo": {
+        "title": "Personal Information",
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter your name",
+          "edit": "Edit name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email"
+        }
+      },
+      "security": {
+        "title": "Security",
+        "twoFactor": {
+          "title": "Two-Factor Authentication",
+          "description": "Add an extra layer of security to your account",
+          "enabled": "Enabled",
+          "disabled": "Disabled",
+          "setup": "Setup",
+          "manage": "Manage"
+        },
+        "loginHistory": {
+          "title": "Login History",
+          "description": "View recent accesses to your account",
+          "lastAccess": "Last access",
+          "device": "Device",
+          "location": "Location",
+          "viewAll": "View full history",
+          "noRecords": "No records found"
+        },
+        "sessions": {
+          "title": "Active Sessions",
+          "description": "Manage devices connected to your account",
+          "currentDevice": "Current device",
+          "otherDevices": "Other devices",
+          "terminateAll": "End all sessions",
+          "messages": {
+            "sessionTerminated": "Session ended successfully",
+            "allSessionsTerminated": "All sessions have been ended"
+          }
+        },
+        "password": {
+          "title": "Password",
+          "label": "Password",
+          "current": "Current Password",
+          "new": "New Password",
+          "confirm": "Confirm Password",
+          "change": "Change Password",
+          "requirements": "Password must be at least 8 characters",
+          "form": {
+            "title": "Change Password",
+            "description": "To change your password, first confirm your current password",
+            "currentPassword": {
+              "label": "Current Password",
+              "placeholder": "Enter your current password"
+            },
+            "newPassword": {
+              "label": "New Password",
+              "placeholder": "Enter new password",
+              "requirements": "Use at least 8 characters with letters and numbers"
+            },
+            "confirmPassword": {
+              "label": "Confirm New Password",
+              "placeholder": "Enter new password again"
+            }
+          },
+          "messages": {
+            "success": "Password changed successfully",
+            "error": {
+              "incorrectPassword": "Current password is incorrect",
+              "passwordsDontMatch": "Passwords don't match",
+              "tooWeak": "Password is too weak",
+              "generic": "Error changing password"
+            }
+          }
+        },
+        "messages": {
+          "twoFactorEnabled": "Two-factor authentication enabled successfully",
+          "twoFactorDisabled": "Two-factor authentication disabled",
+          "sessionTerminated": "Session ended successfully",
+          "allSessionsTerminated": "All sessions have been ended",
+          "success": {
+            "passwordChanged": "Password changed successfully",
+            "settingsUpdated": "Security settings updated successfully"
+          },
+          "error": {
+            "generic": "An error occurred. Please try again.",
+            "invalidPassword": "Invalid password",
+            "sessionError": "Error managing sessions",
+            "twoFactorError": "Error configuring two-factor authentication"
+          }
+        }
+      },
+      "dangerZone": {
+        "title": "Delete Account",
+        "deleteWarning": "When you delete your account, all your data will be permanently removed. This action cannot be undone.",
+        "confirmationWarning": "You will lose all your data, including investments, expenses, and settings.",
+        "confirmDelete": "Yes, permanently delete my account",
+        "deleteButton": "Delete my account"
+      },
+      "messages": {
+        "nameUpdated": "Name updated successfully",
+        "passwordChanged": "Password changed successfully",
+        "accountDeleted": "Your account has been deleted successfully"
+      }
+    },
+    "preferences": {
+      "title": "Preferences",
+      "interface": {
+        "title": "Interface",
+        "theme": {
+          "title": "Theme",
+          "light": "Light",
+          "dark": "Dark",
+          "system": "System",
+          "auto": "Auto"
+        },
+        "fontSize": {
+          "title": "Font Size",
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      },
+      "localization": {
+        "title": "Localization",
+        "language": {
+          "title": "Language",
+          "current": "English",
+          "select": "Select language",
+          "changed": "Language changed successfully"
+        },
+        "currency": {
+          "title": "Currency",
+          "current": "US Dollar ($)",
+          "select": "Select currency",
+          "format": "Currency format"
+        },
+        "dateTime": {
+          "title": "Date & Time",
+          "format": "Date format",
+          "timezone": "Time zone"
+        }
+      }
+    },
+    "messages": {
+      "success": {
+        "saved": "Settings saved successfully",
+        "updated": "Updated successfully",
+        "deleted": "Deleted successfully"
+      },
+      "errors": {
+        "generic": "An error occurred. Please try again.",
+        "validation": "Please check the fields",
+        "permission": "No permission for this action",
+        "connection": "Connection error"
+      },
+      "confirmations": {
+        "save": "Do you want to save changes?",
+        "cancel": "Do you want to discard changes?",
+        "delete": "Do you really want to delete?"
+      }
+    },
+    "privacy": {
+      "title": "Privacy",
+      "dataSharing": {
+        "title": "Data Sharing",
+        "analytics": "Usage Analytics",
+        "analyticsDescription": "Help us improve with anonymous data",
+        "marketing": "Marketing Communications",
+        "marketingDescription": "Receive news and offers",
+        "thirdParty": "Third-Party Integrations",
+        "thirdPartyDescription": "Allow connections with other services"
+      },
+      "visibility": {
+        "title": "Profile Visibility",
+        "public": "Public Profile",
+        "private": "Private Profile",
+        "showEmail": "Show email",
+        "showStats": "Show statistics"
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "preferences": {
+        "email": {
+          "title": "Email",
+          "updates": "Account updates",
+          "security": "Security alerts",
+          "newsletter": "Newsletter",
+          "marketing": "Offers and promotions"
+        },
+        "app": {
+          "title": "Application",
+          "push": "Push notifications",
+          "sounds": "Sounds",
+          "vibration": "Vibration"
+        },
+        "alerts": {
+          "title": "Alerts",
+          "lowBalance": "Low balance",
+          "largeExpenses": "Large expenses",
+          "goals": "Goals achieved",
+          "investments": "Investment changes"
+        }
+      }
+    },
+    "security": {
+      "title": "Security",
+      "loginHistory": {
+        "title": "Login History",
+        "description": "View recent accesses to your account",
+        "lastAccess": "Last access",
+        "device": "Device",
+        "location": "Location",
+        "viewAll": "View full history",
+        "noRecords": "No records found"
+      },
+      "sessions": {
+        "title": "Active Sessions",
+        "description": "Manage devices connected to your account",
+        "currentDevice": "Current device",
+        "otherDevices": "Other devices",
+        "terminateAll": "End all sessions"
+      },
+      "messages": {
+        "twoFactorEnabled": "Two-factor authentication enabled successfully",
+        "twoFactorDisabled": "Two-factor authentication disabled",
+        "sessionTerminated": "Session ended successfully",
+        "allSessionsTerminated": "All sessions have been ended"
+      }
+    }
+  }
+}

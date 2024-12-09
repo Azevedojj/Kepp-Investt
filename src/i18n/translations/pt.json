@@ -1,0 +1,343 @@
+{
+  "common": {
+    "balance": "Saldo",
+    "investments": "Investimentos",
+    "expenses": "Despesas",
+    "income": "Receitas",
+    "settings": "Configurações",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "activate": "Ativar",
+    "deactivate": "Desativar",
+    "delete": "Excluir",
+    "loading": "Carregando...",
+    "edit": "Editar",
+    "change": "Alterar",
+    "view": "Visualizar",
+    "apply": "Aplicar",
+    "confirm": "Confirmar"
+  },
+  "dashboard": {
+    "totalAssets": "Total de Ativos",
+    "investmentReturn": "Retorno de Investimentos",
+    "monthlyExpenses": "Despesas Mensais",
+    "ytd": "Crescimento no Ano",
+    "viewDetails": "Ver Detalhes",
+    "loss": "Perda de {{value}} esta semana",
+    "wtd": "Variação Semanal",
+    "welcome": "Bem-vindo ao Dashboard",
+    "overview": "Aqui está uma visão geral dos seus investimentos",
+    "performanceChart": "Desempenho dos Investimentos",
+    "chartDescription": "Acompanhe o desempenho dos seus investimentos ao longo do tempo",
+    "welcomeUser": "Bem-vindo, {{name}}"
+  },
+  "investments": {
+    "title": "Retorno dos Investimentos",
+    "addButton": "Adicionar Investimento",
+    "noInvestments": "Nenhum investimento encontrado. Adicione seu primeiro investimento!",
+    "addNew": "Adicionar Novo Investimento",
+    "name": "Nome do Investimento",
+    "amount": "Valor",
+    "date": "Data do Investimento",
+    "editTitle": "Editar Investimento",
+    "deleteConfirmation": "Tem certeza que deseja excluir este investimento? Esta ação não pode ser desfeita.",
+    "notFound": "Investimento não encontrado",
+    "deleteTitle": "Excluir Investimento",
+    "return": "Taxa de Retorno",
+    "returnPositive": "Lucro",
+    "returnNegative": "Prejuízo"
+  },
+  "income": {
+    "title": "Receita Mensal",
+    "addButton": "Adicionar Receita",
+    "noIncomes": "Nenhuma receita encontrada. Adicione sua primeira receita!",
+    "addNew": "Adicionar Nova Receita",
+    "name": "Nome da Receita",
+    "amount": "Valor",
+    "date": "Data da Receita",
+    "recurrent": "Receita Recorrente",
+    "recurrentLabel": "Recorrente",
+    "editTitle": "Editar Receita",
+    "deleteTitle": "Excluir Receita",
+    "deleteConfirmation": "Tem certeza que deseja excluir esta receita? Esta ação não pode ser desfeita."
+  },
+  "expenses": {
+    "title": "Despesas Mensais",
+    "addButton": "Adicionar Despesa",
+    "noExpenses": "Nenhuma despesa encontrada. Adicione sua primeira despesa!",
+    "addNew": "Adicionar Nova Despesa",
+    "name": "Nome da Despesa",
+    "amount": "Valor",
+    "date": "Data da Despesa",
+    "category": "Categoria",
+    "categories": {
+      "housing": "Moradia",
+      "transportation": "Transporte",
+      "food": "Alimentação",
+      "utilities": "Utilidades",
+      "insurance": "Seguro",
+      "healthcare": "Saúde",
+      "entertainment": "Entretenimento",
+      "other": "Outros"
+    }
+  },
+  "chart": {
+    "lastSixMonths": "Desempenho dos últimos 6 meses",
+    "month": "Mês",
+    "performance": "Desempenho - {{period}}",
+    "period": {
+      "1w": "Última Semana",
+      "1m": "Último Mês",
+      "6m": "Últimos 6 Meses",
+      "1y": "Último Ano",
+      "all": "Todo Período"
+    },
+    "time": "Hora",
+    "date": "Data"
+  },
+  "auth": {
+    "loginTitle": "Entre na sua conta",
+    "registerTitle": "Crie sua conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "name": "Nome",
+    "loginButton": "Entrar",
+    "registerButton": "Cadastrar",
+    "noAccount": "Não tem uma conta?",
+    "register": "Cadastre-se",
+    "haveAccount": "Já tem uma conta?",
+    "login": "Entre",
+    "invalidCredentials": "E-mail ou senha inválidos",
+    "loginError": "Erro ao fazer login",
+    "registerError": "Erro ao criar conta",
+    "registerSuccess": "Conta criada com sucesso! Redirecionando...",
+    "userExists": "Este e-mail já está cadastrado",
+    "logout": "Sair",
+    "logoutTitle": "Sair da conta",
+    "logoutConfirmation": "Tem certeza que deseja sair da sua conta? Você precisará fazer login novamente para acessar suas informações.",
+    "welcomeMessage": "Gerencie seus investimentos de forma simples e eficiente. Acompanhe seu patrimônio e tome decisões mais inteligentes.",
+    "forgotPassword": "Esqueceu a senha?",
+    "orLoginWith": "Ou entre com",
+    "orRegisterWith": "Ou cadastre-se com",
+    "loginSubtitle": "Bem-vindo de volta! Por favor, insira seus dados para acessar sua conta.",
+    "registerSubtitle": "Crie uma conta para começar a gerenciar seus investimentos.",
+    "tooManyAttempts": "Muitas tentativas de login. Por favor, aguarde alguns minutos antes de tentar novamente.",
+    "remainingAttempts": "Tentativas restantes: {{count}}",
+    "userBanned": "Este email está associado a uma conta banida e não pode ser utilizado.",
+    "bannedReason": "Motivo do banimento: {{reason}}",
+    "registrationBlocked": "Registro bloqueado",
+    "tryDifferentEmail": "Por favor, utilize um email diferente para criar sua conta."
+  },
+  "settings": {
+    "title": "Configurações",
+    "account": {
+      "title": "Conta",
+      "personalInfo": {
+        "title": "Informações Pessoais",
+        "name": {
+          "label": "Nome",
+          "placeholder": "Digite seu nome",
+          "edit": "Editar nome"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Digite seu e-mail"
+        }
+      },
+      "security": {
+        "title": "Segurança",
+        "twoFactor": {
+          "title": "Autenticação em Dois Fatores",
+          "description": "Adicione uma camada extra de segurança à sua conta",
+          "enabled": "Ativada",
+          "disabled": "Desativada",
+          "setup": "Configurar",
+          "manage": "Gerenciar"
+        },
+        "loginHistory": {
+          "title": "Histórico de Login",
+          "description": "Veja os acessos recentes à sua conta",
+          "lastAccess": "Último acesso",
+          "device": "Dispositivo",
+          "location": "Localização",
+          "viewAll": "Ver histórico completo",
+          "noRecords": "Nenhum registro encontrado"
+        },
+        "sessions": {
+          "title": "Sessões Ativas",
+          "description": "Gerencie os dispositivos conectados à sua conta",
+          "currentDevice": "Dispositivo atual",
+          "otherDevices": "Outros dispositivos",
+          "terminateAll": "Encerrar todas as sessões"
+        },
+        "messages": {
+          "twoFactorEnabled": "Autenticação em dois fatores ativada com sucesso",
+          "twoFactorDisabled": "Autenticação em dois fatores desativada",
+          "sessionTerminated": "Sessão encerrada com sucesso",
+          "allSessionsTerminated": "Todas as sessões foram encerradas"
+        },
+        "password": {
+          "title": "Senha",
+          "label": "Senha",
+          "current": "Senha atual",
+          "new": "Nova senha",
+          "confirm": "Confirmar nova senha",
+          "change": "Alterar senha",
+          "requirements": "A senha deve ter pelo menos 8 caracteres",
+          "form": {
+            "title": "Alterar Senha",
+            "description": "Para alterar sua senha, primeiro confirme sua senha atual",
+            "currentPassword": {
+              "label": "Senha atual",
+              "placeholder": "Digite sua senha atual"
+            },
+            "newPassword": {
+              "label": "Nova senha",
+              "placeholder": "Digite a nova senha",
+              "requirements": "Use pelo menos 8 caracteres com letras e números"
+            },
+            "confirmPassword": {
+              "label": "Confirmar nova senha",
+              "placeholder": "Digite novamente a nova senha"
+            }
+          },
+          "messages": {
+            "success": "Senha alterada com sucesso",
+            "error": {
+              "incorrectPassword": "Senha atual incorreta",
+              "passwordsDontMatch": "As senhas não coincidem",
+              "tooWeak": "A senha é muito fraca",
+              "generic": "Erro ao alterar senha"
+            }
+          }
+        }
+      },
+      "dangerZone": {
+        "title": "Excluir Conta",
+        "deleteWarning": "Ao excluir sua conta, todos os seus dados serão permanentemente removidos. Esta ação não pode ser desfeita.",
+        "confirmationWarning": "Você perderá todos os seus dados, incluindo investimentos, despesas e configurações.",
+        "confirmDelete": "Sim, excluir minha conta permanentemente",
+        "deleteButton": "Excluir minha conta"
+      },
+      "messages": {
+        "nameUpdated": "Nome atualizado com sucesso",
+        "passwordChanged": "Senha alterada com sucesso",
+        "accountDeleted": "Sua conta foi excluída com sucesso"
+      }
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "dataSharing": {
+        "title": "Compartilhamento de Dados",
+        "analytics": "Análise de Uso",
+        "analyticsDescription": "Ajude-nos a melhorar com dados anônimos",
+        "marketing": "Comunicações de Marketing",
+        "marketingDescription": "Receba novidades e ofertas",
+        "thirdParty": "Integrações com Terceiros",
+        "thirdPartyDescription": "Permita conexões com outros serviços"
+      },
+      "visibility": {
+        "title": "Visibilidade do Perfil",
+        "public": "Perfil Público",
+        "private": "Perfil Privado",
+        "showEmail": "Mostrar e-mail",
+        "showStats": "Mostrar estatísticas"
+      }
+    },
+    "notifications": {
+      "title": "Notificações",
+      "preferences": {
+        "email": {
+          "title": "E-mail",
+          "updates": "Atualizações da conta",
+          "security": "Alertas de segurança",
+          "newsletter": "Newsletter",
+          "marketing": "Ofertas e promoções"
+        },
+        "app": {
+          "title": "Aplicativo",
+          "push": "Notificações push",
+          "sounds": "Sons",
+          "vibration": "Vibração"
+        },
+        "alerts": {
+          "title": "Alertas",
+          "lowBalance": "Saldo baixo",
+          "largeExpenses": "Despesas grandes",
+          "goals": "Metas atingidas",
+          "investments": "Mudanças nos investimentos"
+        }
+      }
+    },
+    "preferences": {
+      "title": "Preferências",
+      "interface": {
+        "title": "Interface",
+        "theme": {
+          "title": "Tema",
+          "light": "Claro",
+          "dark": "Escuro",
+          "system": "Sistema",
+          "auto": "Automático"
+        },
+        "fontSize": {
+          "title": "Tamanho da Fonte",
+          "small": "Pequena",
+          "medium": "Média",
+          "large": "Grande"
+        },
+        "density": {
+          "title": "Densidade",
+          "comfortable": "Confortável",
+          "compact": "Compacta"
+        }
+      },
+      "localization": {
+        "title": "Localização",
+        "language": {
+          "title": "Idioma",
+          "current": "Português (Brasil)",
+          "select": "Selecione o idioma",
+          "changed": "Idioma alterado com sucesso"
+        },
+        "currency": {
+          "title": "Moeda",
+          "current": "Real (R$)",
+          "select": "Selecione a moeda",
+          "format": "Formato da moeda"
+        },
+        "dateTime": {
+          "title": "Data e Hora",
+          "format": "Formato da data",
+          "timezone": "Fuso horário"
+        }
+      },
+      "theme": {
+        "title": "Tema",
+        "light": "Tema Claro",
+        "dark": "Tema Escuro",
+        "description": "Escolha entre tema claro ou escuro para a interface",
+        "system": "Usar tema do sistema",
+        "auto": "Alternar automaticamente"
+      }
+    },
+    "messages": {
+      "success": {
+        "saved": "Configurações salvas com sucesso",
+        "updated": "Atualizado com sucesso",
+        "deleted": "Excluído com sucesso"
+      },
+      "errors": {
+        "generic": "Ocorreu um erro. Por favor, tente novamente.",
+        "validation": "Por favor, verifique os campos",
+        "permission": "Sem permissão para esta ação",
+        "connection": "Erro de conexão"
+      },
+      "confirmations": {
+        "save": "Deseja salvar as alterações?",
+        "cancel": "Deseja descartar as alterações?",
+        "delete": "Deseja realmente excluir?"
+      }
+    }
+  }
+}

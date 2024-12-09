@@ -1,0 +1,18 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.kepp.invest
+productName: Kepp Invest
+files:
+  - filter:
+      - dist/**/*
+      - dist-electron/**/*
+mac:
+  category: public.app-category.finance
+  icon: public/icon.icns
+win:
+  icon: public/icon.ico
+linux:
+  icon: public/icon.png
+  category: Finance
+electronVersion: 33.2.1

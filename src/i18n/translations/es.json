@@ -1,0 +1,337 @@
+{
+  "common": {
+    "balance": "Balance",
+    "investments": "Inversiones",
+    "expenses": "Gastos",
+    "income": "Ingresos",
+    "settings": "Configuración",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "activate": "Activar",
+    "deactivate": "Desactivar",
+    "delete": "Eliminar",
+    "loading": "Cargando...",
+    "edit": "Editar",
+    "change": "Cambiar",
+    "view": "Ver",
+    "apply": "Aplicar",
+    "confirm": "Confirmar"
+  },
+  "dashboard": {
+    "totalAssets": "Activos Totales",
+    "investmentReturn": "Retorno de Inversiones",
+    "monthlyExpenses": "Gastos Mensuales",
+    "ytd": "Crecimiento del Año",
+    "viewDetails": "Ver Detalles",
+    "loss": "Pérdida de {{value}} esta semana",
+    "wtd": "Variación Semanal",
+    "welcome": "Bienvenido al Panel",
+    "overview": "Aquí está un resumen de tus inversiones",
+    "performanceChart": "Rendimiento de Inversiones",
+    "chartDescription": "Sigue el rendimiento de tus inversiones a lo largo del tiempo",
+    "welcomeUser": "Bienvenido, {{name}}"
+  },
+  "investments": {
+    "title": "Retorno de Inversiones",
+    "addButton": "Agregar Inversión",
+    "noInvestments": "No se encontraron inversiones. ¡Agrega tu primera inversión!",
+    "addNew": "Agregar Nueva Inversión",
+    "name": "Nombre de la Inversión",
+    "amount": "Monto",
+    "date": "Fecha de Inversión",
+    "editTitle": "Editar Inversión",
+    "deleteConfirmation": "¿Estás seguro de que deseas eliminar esta inversión? Esta acción no se puede deshacer.",
+    "notFound": "Inversión no encontrada",
+    "deleteTitle": "Eliminar Inversión",
+    "return": "Tasa de Retorno",
+    "returnPositive": "Ganancia",
+    "returnNegative": "Pérdida"
+  },
+  "auth": {
+    "loginTitle": "Inicia sesión en tu cuenta",
+    "registerTitle": "Crea tu cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "loginButton": "Iniciar Sesión",
+    "registerButton": "Registrarse",
+    "noAccount": "¿No tienes una cuenta?",
+    "register": "Regístrate",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "login": "Iniciar Sesión",
+    "invalidCredentials": "Correo o contraseña inválidos",
+    "loginError": "Error al iniciar sesión",
+    "registerError": "Error al crear cuenta",
+    "registerSuccess": "¡Cuenta creada con éxito! Redirigiendo...",
+    "userExists": "Este correo ya está registrado",
+    "logout": "Cerrar Sesión",
+    "logoutTitle": "Cerrar Sesión",
+    "logoutConfirmation": "¿Estás seguro de que deseas cerrar sesión? Necesitarás iniciar sesión nuevamente para acceder a tu información.",
+    "welcomeMessage": "Gestiona tus inversiones de forma simple y eficiente. Monitorea tu patrimonio y toma decisiones más inteligentes.",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "orLoginWith": "O inicia sesión con",
+    "orRegisterWith": "O regístrate con",
+    "loginSubtitle": "¡Bienvenido de vuelta! Por favor, ingresa tus datos para acceder a tu cuenta.",
+    "registerSubtitle": "Crea una cuenta para comenzar a gestionar tus inversiones."
+  },
+  "settings": {
+    "title": "Configuración",
+    "account": {
+      "title": "Cuenta",
+      "personalInfo": {
+        "title": "Información Personal",
+        "name": {
+          "label": "Nombre",
+          "placeholder": "Ingresa tu nombre",
+          "edit": "Editar nombre"
+        },
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "Ingresa tu correo electrónico"
+        }
+      },
+      "security": {
+        "title": "Seguridad",
+        "twoFactor": {
+          "title": "Autenticación de Dos Factores",
+          "description": "Agrega una capa extra de seguridad a tu cuenta",
+          "enabled": "Activada",
+          "disabled": "Desactivada",
+          "setup": "Configurar",
+          "manage": "Gestionar"
+        },
+        "loginHistory": {
+          "title": "Historial de Inicio de Sesión",
+          "description": "Ver accesos recientes a tu cuenta",
+          "lastAccess": "Último acceso",
+          "device": "Dispositivo",
+          "location": "Ubicación",
+          "viewAll": "Ver historial completo",
+          "noRecords": "No se encontraron registros"
+        },
+        "sessions": {
+          "title": "Sesiones Activas",
+          "description": "Gestiona los dispositivos conectados a tu cuenta",
+          "currentDevice": "Dispositivo actual",
+          "otherDevices": "Otros dispositivos",
+          "terminateAll": "Finalizar todas las sesiones",
+          "messages": {
+            "sessionTerminated": "Sesión finalizada con éxito",
+            "allSessionsTerminated": "Todas las sesiones han sido finalizadas"
+          }
+        },
+        "password": {
+          "title": "Contraseña",
+          "label": "Contraseña",
+          "current": "Contraseña actual",
+          "new": "Nueva contraseña",
+          "confirm": "Confirmar contraseña",
+          "change": "Cambiar contraseña",
+          "requirements": "La contraseña debe tener al menos 8 caracteres",
+          "form": {
+            "title": "Cambiar Contraseña",
+            "description": "Para cambiar tu contraseña, primero confirma tu contraseña actual",
+            "currentPassword": {
+              "label": "Contraseña actual",
+              "placeholder": "Ingresa tu contraseña actual"
+            },
+            "newPassword": {
+              "label": "Nueva contraseña",
+              "placeholder": "Ingresa la nueva contraseña",
+              "requirements": "Usa al menos 8 caracteres con letras y números"
+            },
+            "confirmPassword": {
+              "label": "Confirmar nueva contraseña",
+              "placeholder": "Ingresa nuevamente la nueva contraseña"
+            }
+          },
+          "messages": {
+            "success": "Contraseña cambiada con éxito",
+            "error": {
+              "incorrectPassword": "La contraseña actual es incorrecta",
+              "passwordsDontMatch": "Las contraseñas no coinciden",
+              "tooWeak": "La contraseña es muy débil",
+              "generic": "Error al cambiar la contraseña"
+            }
+          }
+        }
+      },
+      "dangerZone": {
+        "title": "Eliminar Cuenta",
+        "deleteWarning": "Al eliminar tu cuenta, todos tus datos serán eliminados permanentemente. Esta acción no se puede deshacer.",
+        "confirmationWarning": "Perderás todos tus datos, incluyendo inversiones, gastos y configuraciones.",
+        "confirmDelete": "Sí, eliminar mi cuenta permanentemente",
+        "deleteButton": "Eliminar mi cuenta"
+      }
+    },
+    "preferences": {
+      "title": "Preferencias",
+      "interface": {
+        "title": "Interfaz",
+        "theme": {
+          "title": "Tema",
+          "light": "Claro",
+          "dark": "Oscuro",
+          "system": "Sistema",
+          "auto": "Automático"
+        }
+      },
+      "localization": {
+        "title": "Localización",
+        "language": {
+          "title": "Idioma",
+          "current": "Español",
+          "select": "Seleccionar idioma",
+          "changed": "Idioma cambiado con éxito"
+        },
+        "currency": {
+          "title": "Moneda",
+          "current": "Peso ($)",
+          "select": "Seleccionar moneda",
+          "format": "Formato de moneda"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "preferences": {
+        "email": {
+          "title": "Correo electrónico",
+          "updates": "Actualizaciones de cuenta",
+          "security": "Alertas de seguridad",
+          "newsletter": "Boletín informativo",
+          "marketing": "Ofertas y promociones"
+        },
+        "app": {
+          "title": "Aplicación",
+          "push": "Notificaciones push",
+          "sounds": "Sonidos",
+          "vibration": "Vibración"
+        }
+      }
+    },
+    "messages": {
+      "success": {
+        "saved": "Configuración guardada con éxito",
+        "updated": "Actualizado con éxito",
+        "deleted": "Eliminado con éxito"
+      },
+      "errors": {
+        "generic": "Ocurrió un error. Por favor, intenta nuevamente.",
+        "validation": "Por favor, verifica los campos",
+        "permission": "Sin permiso para esta acción",
+        "connection": "Error de conexión"
+      }
+    },
+    "security": {
+      "title": "Seguridad",
+      "twoFactor": {
+        "title": "Autenticación de Dos Factores",
+        "description": "Agrega una capa extra de seguridad a tu cuenta",
+        "enabled": "Activada",
+        "disabled": "Desactivada",
+        "setup": "Configurar",
+        "manage": "Gestionar"
+      },
+      "loginHistory": {
+        "title": "Historial de Inicio de Sesión",
+        "description": "Ver accesos recientes a tu cuenta",
+        "lastAccess": "Último acceso",
+        "device": "Dispositivo",
+        "location": "Ubicación",
+        "viewAll": "Ver historial completo",
+        "noRecords": "No se encontraron registros"
+      },
+      "sessions": {
+        "title": "Sesiones Activas",
+        "description": "Gestiona los dispositivos conectados a tu cuenta",
+        "currentDevice": "Dispositivo actual",
+        "otherDevices": "Otros dispositivos",
+        "terminateAll": "Finalizar todas las sesiones",
+        "messages": {
+          "sessionTerminated": "Sesión finalizada con éxito",
+          "allSessionsTerminated": "Todas las sesiones han sido finalizadas"
+        }
+      },
+      "password": {
+        "title": "Contraseña",
+        "label": "Contraseña",
+        "current": "Contraseña actual",
+        "new": "Nueva contraseña",
+        "confirm": "Confirmar contraseña",
+        "change": "Cambiar contraseña",
+        "requirements": "La contraseña debe tener al menos 8 caracteres",
+        "form": {
+          "title": "Cambiar Contraseña",
+          "description": "Para cambiar tu contraseña, primero confirma tu contraseña actual",
+          "currentPassword": {
+            "label": "Contraseña actual",
+            "placeholder": "Ingresa tu contraseña actual"
+          },
+          "newPassword": {
+            "label": "Nueva contraseña",
+            "placeholder": "Ingresa la nueva contraseña",
+            "requirements": "Usa al menos 8 caracteres con letras y números"
+          },
+          "confirmPassword": {
+            "label": "Confirmar nueva contraseña",
+            "placeholder": "Ingresa nuevamente la nueva contraseña"
+          }
+        },
+        "messages": {
+          "success": "Contraseña cambiada con éxito",
+          "error": {
+            "incorrectPassword": "La contraseña actual es incorrecta",
+            "passwordsDontMatch": "Las contraseñas no coinciden",
+            "tooWeak": "La contraseña es muy débil",
+            "generic": "Error al cambiar la contraseña"
+          }
+        }
+      },
+      "messages": {
+        "twoFactorEnabled": "Autenticación de dos factores activada con éxito",
+        "twoFactorDisabled": "Autenticación de dos factores desactivada",
+        "sessionTerminated": "Sesión finalizada con éxito",
+        "allSessionsTerminated": "Todas las sesiones han sido finalizadas",
+        "success": {
+          "passwordChanged": "Contraseña cambiada con éxito",
+          "settingsUpdated": "Configuración de seguridad actualizada con éxito"
+        },
+        "error": {
+          "generic": "Ocurrió un error. Por favor, intenta nuevamente.",
+          "invalidPassword": "Contraseña inválida",
+          "sessionError": "Error al gestionar sesiones",
+          "twoFactorError": "Error al configurar la autenticación de dos factores"
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "dataSharing": {
+        "title": "Compartir Datos",
+        "analytics": "Análisis de Uso",
+        "analyticsDescription": "Ayúdanos a mejorar con datos anónimos",
+        "marketing": "Comunicaciones de Marketing",
+        "marketingDescription": "Recibe noticias y ofertas",
+        "thirdParty": "Integraciones con Terceros",
+        "thirdPartyDescription": "Permite conexiones con otros servicios"
+      },
+      "visibility": {
+        "title": "Visibilidad del Perfil",
+        "public": "Perfil Público",
+        "private": "Perfil Privado",
+        "showEmail": "Mostrar correo electrónico",
+        "showStats": "Mostrar estadísticas"
+      },
+      "messages": {
+        "success": {
+          "settingsUpdated": "Configuración de privacidad actualizada con éxito"
+        },
+        "error": {
+          "generic": "Error al actualizar la configuración de privacidad",
+          "permission": "Sin permiso para cambiar esta configuración"
+        }
+      }
+    }
+  }
+} 
